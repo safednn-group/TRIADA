@@ -1,0 +1,65 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Native extensions and build artifacts
+*.so
+build/
+dist/
+*.egg-info/
+*.egg
+pcdet/version.py
+
+# Test, coverage, and static-analysis caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs and local environment files
+*.log
+.env
+.env.*
+!.env.example
+
+# Training and experiment artifacts
+output/
+outputs/
+checkpoints/
+wandb/
+runs/
+tensorboard/
+*.pth
+*.pt
+*.ckpt
+tools/triada_subsets/
+
+# Local datasets (keep versioned split definitions)
+data/*
+!data/kitti/
+data/kitti/*
+!data/kitti/ImageSets/
+!data/kitti/ImageSets/*.txt
+!data/waymo/
+data/waymo/*
+!data/waymo/ImageSets/
+!data/waymo/ImageSets/*.txt
